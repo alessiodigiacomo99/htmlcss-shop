@@ -12,6 +12,14 @@
 }
 /* / utility class */
 
+.container{
+  text-align: center;
+}
+
+.box{
+  padding: 30px;
+}
+
 .riquadro{
   width: 300px;
   height:372;
@@ -23,4 +31,18 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.cuore{
+  color: red;
+  font-size: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+  display: none;
+}
+
+.img:hover + .cuore  {
+  display: block;
+  
 }
