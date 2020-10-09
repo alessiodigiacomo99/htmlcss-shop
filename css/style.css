@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+/* utility class */
+.verde{
+  background-color: green;
+}
+
+.rosso{
+  background-color: red;
+}
+/* / utility class */
+
+.riquadro{
+  width: 300px;
+  height:372;
+  position: relative;
+  display: inline-block;
+}
+
+.riquadro > .badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
